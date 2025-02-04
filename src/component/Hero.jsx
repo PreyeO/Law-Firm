@@ -20,7 +20,7 @@ const Hero = () => {
             for Businesses & Personal Matters
           </h1>
           <p className="lg:text-lg text-base font-normal text-[#f4f4f4] opacity-80 lg:w-[60%] pt-5">
-            Providing expert legal solutions with integrity, efficiency and a
+            Expert legal solutions delivered with integrity, efficiency and a
             commitment to your success.
           </p>
           <Link
