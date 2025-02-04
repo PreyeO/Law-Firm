@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-center  min-h-screen  items-center text-center px-[25px] lg:px-[80px] hero ">
+    <section className="flex flex-col justify-center  items-center text-center px-[25px] lg:px-[80px] hero lg:pt-[80px] pt-[50px] ">
       <div className="absolute left-0">
         <img
           src={Scales}
