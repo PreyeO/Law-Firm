@@ -27,7 +27,7 @@ const Hero = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className=" mt-[25px] cursor-pointer"
+            className=" mt-[50px] cursor-pointer"
           >
             <Button className="w-[250px] h-[56px]" withHeartbeat={false}>
               Get a Consultation{" "}
