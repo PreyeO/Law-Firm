@@ -9,7 +9,9 @@ const AboutUs = () => {
       id="about-us"
       className="lg:px-[80px] px-[25px] min-h-screen lg:pt-[80x] pt-[50px] pb-10"
     >
-      <h6 className="underline decoration-[#C9A13E] text-center">About Us</h6>
+      <h6 className="underline decoration-[#C9A13E] text-center font-bold text-lg">
+        About Us
+      </h6>
       <div className="flex xl:gap-6 gap-10 items-center flex-wrap lg:flex-nowrap">
         <div className="bg-gray-300 lg:h-[450px] h-[200px] flex lg:w-[80%] w-full justify-center gap-2 rounded-md">
           <img

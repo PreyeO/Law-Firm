@@ -9,7 +9,7 @@ const Services = () => {
       id="service"
       className="lg:px-[80px] px-[25px] bg-[#1D2951] min-h-screen pb-10 lg:pt-[80x] pt-[50px]"
     >
-      <h6 className="underline decoration-[#C9A13E] text-[#f4f4f4] ml-10 pb-3">
+      <h6 className="underline decoration-[#C9A13E] text-[#f4f4f4] ml-10 pb-3 font-bold text-lg">
         Our Services
       </h6>
       <div className="grid lg:grid-cols-3 xl:grid-cols-4  grid-cols-2 md:grid-cols-3 gap-2 items-center lg:w-[80%] w-full mx-auto justify-center ">
