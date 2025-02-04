@@ -4,7 +4,7 @@ import Services from "../component/Services";
 
 const Landing = () => {
   return (
-    <main className=" overflow-clip">
+    <main className=" overflow-hidden">
       <Hero />
       <AboutUs />
       <Services />

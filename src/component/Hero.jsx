@@ -5,12 +5,12 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-center  items-center text-center px-[25px] lg:px-[80px] hero lg:pt-[80px] pt-[50px] ">
+    <section className="flex flex-col justify-center  items-center text-center px-[25px] lg:px-[80px] hero lg:pt-[80px] pt-[50px] pb-10 ">
       <div className="absolute left-0">
         <img
           src={Scales}
           alt="image of justice in law"
-          className="opacity-5 w-[500px] h-[500px]  mt-[-80px]"
+          className="opacity-5 w-[500px] lg:h-[500px] h-[300px]  mt-[-80px]"
         />
       </div>
       <div className="lg:w-[80%] flex flex-col items-center">
