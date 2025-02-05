@@ -11,7 +11,7 @@ const Hero = () => {
           <img
             src={Scales}
             alt="image of justice in law"
-            className="w-[90%] md:h-[600px] h-[500px] opacity-10 mt-[-100px]"
+            className="2xl:h-[800px] md:h-[600px] h-[500px] opacity-10 mt-[-100px]"
           />
         </div>
         <div className="lg:w-[80%] flex flex-col items-center">
