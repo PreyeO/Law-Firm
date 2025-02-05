@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer id="contact" className="lg:mt-[80px] mt-[50px]">
+    <footer id="contact" className="lg:pt-[150px] pt-[50px]">
       <div className="lg:px-[80px] px-[25px] mb-10">
         <div className="flex justify-around items-center flex-wrap">
           <div className=" flex flex-col items-center w-[300px]">

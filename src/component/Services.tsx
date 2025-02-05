@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section
       id="service"
-      className="lg:px-[80px] px-[25px] bg-[#1D2951] min-h-screen pb-10 lg:pt-[80x] pt-[50px]"
+      className="lg:px-[80px] px-[25px] bg-[#1D2951]  pb-10 lg:pt-[150px] pt-[50px]"
     >
       <h6 className="underline decoration-[#C9A13E] text-[#f4f4f4] ml-10 pb-3 font-bold text-lg">
         Our Services

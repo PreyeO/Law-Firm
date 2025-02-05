@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <section
       id="about-us"
-      className="lg:px-[80px] px-[25px] min-h-screen lg:pt-[80x] pt-[50px] pb-10"
+      className="lg:px-[80px] px-[25px] lg:pt-[150px] pt-[50px] pb-10"
     >
       <h6 className="underline decoration-[#C9A13E] text-center font-bold text-lg">
         About Us
