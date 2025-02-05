@@ -15,7 +15,7 @@ const Button = memo(function AnimatedButton({
 
   return (
     <button
-      className={`${baseClasses} ${className} font-semibold cursor-pointer`}
+      className={`${baseClasses} ${className} font-semibold cursor-pointer 2xl:text-xl`}
     >
       {children}
 

@@ -10,14 +10,14 @@
   --white-color: #f4f4f4;
   --text-color: #333333;
 
-  font-synthesis: none;
+  /* font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* Custom animation */
 @keyframes heartbeat {
@@ -76,20 +76,19 @@ h6 {
   font-family: "Playfair", serif;
 }
 
-.hero-bg {
-  background-image: url(./assets/images/StatueOfJustice.png);
-  opacity: 0.2;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (max-width: 373px) {
+  .card {
+    width: 140px;
   }
-  a:hover {
-    color: #747bff;
+  .service {
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  button {
-    background-color: #f9f9f9;
+  .logos {
+    font-size: 13px;
+  }
+  .btn {
+    height: 50px;
+    width: 110px;
   }
 }

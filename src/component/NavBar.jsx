@@ -5,8 +5,8 @@ import Socials from "./ui/socials";
 
 const NavBar = () => {
   return (
-    <nav className="  h-[100px]  flex justify-between items-center navbar lg:px-[80px] px-[25px] border-b border-b-gray-600 w-full">
-      <ul className="md:flex  gap-5 text-base font-medium hidden ">
+    <nav className=" h-[100px] 2xl:h-[150px]  flex justify-between items-center navbar lg:px-[80px] 2xl:px[100px] px-[25px] border-b border-b-gray-600 w-full">
+      <ul className="md:flex  2xl:gap-10 gap-5 text-base 2xl:text-2xl font-medium hidden ">
         <li>
           {" "}
           <Link
@@ -54,7 +54,7 @@ const NavBar = () => {
           className="cursor-pointer"
         >
           <Button
-            className="lg:w-[200px] w-[150px] lg:h-[56px] h-[50px]"
+            className="lg:w-[200px] w-[150px] 2xl:w-[400px] 2xl:h-[100px] lg:h-[56px] h-[50px]"
             withHeartbeat
           >
             {" "}
@@ -68,7 +68,7 @@ const NavBar = () => {
         duration={500}
         className="cursor-pointer md:hidden flex"
       >
-        <Button className="w-[130px] h-[50px]" withHeartbeat={false}>
+        <Button className="w-[130px] h-[50px] btn" withHeartbeat={false}>
           {" "}
           Contact Us
         </Button>

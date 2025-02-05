@@ -1,4 +1,3 @@
-
 import { Facebook, Linkedin } from "lucide-react";
 
 const Socials = () => {
@@ -16,7 +15,7 @@ const Socials = () => {
           className=" hover:fill-[#C9A13E] cursor-pointer transition-colors duration-300"
         />
       </a>
- 
+
       <a
         href="https://github.com/WeBuildWithLove"
         target="_blank"

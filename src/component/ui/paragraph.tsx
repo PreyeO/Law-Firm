@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Paragraph = ({spanText, text}) => {
+const Paragraph = ({ spanText, text }) => {
   return (
-<p>
-    <span className=' font-bold'>{spanText}</span>: {text}
-  
-</p>
-  )
-}
+    <p className="2xl:text-2xl">
+      <span className=" font-bold 2xl:text-2xl">{spanText}</span>: {text}
+    </p>
+  );
+};
 
-export default Paragraph
+export default Paragraph;
