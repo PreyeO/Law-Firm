@@ -26,7 +26,7 @@ const Footer = () => {
               <p>Portharcourt: No 3, Femi Okunnu Estate Phase 1, PH</p>
             </div>
             <div className="md:w-[200px] 2xl:w-[300px] w-full flex flex-col gap-2 text-sm 2xl:text-xl">
-              <h5 className="font-bold text-lg text-[#1d2951]2xl:text-3xl ">
+              <h5 className="font-bold text-lg text-[#1d2951] 2xl:text-3xl ">
                 Contact Us:
               </h5>
               <p>Telephone: +234-1-761-5965</p>
