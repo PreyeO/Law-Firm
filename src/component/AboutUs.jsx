@@ -21,7 +21,7 @@ const AboutUs = () => {
           <img
             src={Justice}
             alt="image of gavel"
-            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px] rounded-md "
+            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px] rounded-md bg-[#333333] "
           />
         </div>
         <div className="md:flex justify-center items-center gap-7 flex-wrap md:flex-nowrap hidden">
