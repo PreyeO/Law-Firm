@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <div className="border border-[#1d2951] opacity-20 w-full my-4"></div>
       <h6 className="flex justify-center items-center mt-10 text-[12px] md:text-sm 2xl:text-xl">
-        copyright &copy; 2025 S.O. FAMUYIWA & C.o. All Rights Reserved.
+        copyright &copy; 2025 S.O. FAMUYIWA & Co. All Rights Reserved.
       </h6>
     </footer>
   );
