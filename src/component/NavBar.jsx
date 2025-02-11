@@ -1,7 +1,6 @@
 import { Link } from "react-scroll";
 import Button from "./ui/button";
 import Logo from "./ui/logo";
-import Socials from "./ui/socials";
 
 const NavBar = () => {
   return (
@@ -43,10 +42,7 @@ const NavBar = () => {
       <Logo />
 
       {/* <Link href="/contact" prefehtch> */}
-      <div className=" md:flex gap-[30px] hidden items-center ">
-        <div className="xl:flex hidden">
-          <Socials />
-        </div>
+      <div className=" md:flex  hidden items-center ">
         <Link
           to="contact"
           smooth={true}

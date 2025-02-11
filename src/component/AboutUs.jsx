@@ -12,8 +12,8 @@ const AboutUs = () => {
       <h6 className="underline decoration-[#C9A13E] text-center font-bold text-lg ">
         WHO WE ARE
       </h6>
-      <div className=" grid grid-cols-1 items-center mt-[60px] min-w:w-[50%] w-full mx-auto gap-7">
-        <div className="flex justify-center items-center gap-7 flex-wrap md:flex-nowrap">
+      <div className=" grid grid-cols-1 items-center  mt-[60px] w-full mx-auto gap-[50px] justify-center">
+        <div className="flex md:justify-around justify-center items-center flex-wrap md:flex-nowrap w-[70%] mx-auto gap-5  md:gap-10">
           <WhoWeAre
             title="Our Mission"
             description="Delivering professional legal expertise with efficiency, transparency, and value for money."
@@ -21,14 +21,14 @@ const AboutUs = () => {
           <img
             src={Justice}
             alt="image of gavel"
-            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px] rounded-md bg-[#333333] "
+            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px]  w-full rounded-md bg-[#333333] "
           />
         </div>
-        <div className="md:flex justify-center items-center gap-7 flex-wrap md:flex-nowrap hidden">
+        <div className=" gap-5 md:gap-10 w-[70%] mx-auto md:flex justify-center md:justify-around items-center  flex-wrap md:flex-nowrap hidden">
           <img
             src={Approach}
             alt="image of lawyers"
-            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px] rounded-md "
+            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px] rounded-md  w-full  bg-[#333333] "
           />
 
           <WhoWeAre
@@ -36,7 +36,7 @@ const AboutUs = () => {
             description="A mix of commercial awareness, legal excellence, and a client-first approach."
           />
         </div>
-        <div className="flex justify-center items-center gap-7 flex-wrap md:hidden">
+        <div className="gap-5  md:gap-10  w-[70%] mx-auto flex justify-center md:justify-around items-center  flex-wrap md:hidden">
           <WhoWeAre
             title="Our Approach"
             description="A mix of commercial awareness, legal excellence, and a client-first approach."
@@ -44,10 +44,10 @@ const AboutUs = () => {
           <img
             src={Approach}
             alt="image of lawyers"
-            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px] rounded-md "
+            className="lg:w-[250px] md:w-[200px] md:h-[200px] h-[150px] rounded-md  w-full  bg-[#333333] "
           />
         </div>
-        <div className="flex justify-center items-center gap-7 flex-wrap md:flex-nowrap ">
+        <div className=" gap-5 md:gap-0 flex md:justify-around justify-center w-[70%] mx-auto items-center  flex-wrap md:flex-nowrap ">
           <WhoWeAre
             title="International Reach"
             description="Expertise in both Nigerian and international law, helping clients navigate complex legal landscapes."
@@ -55,7 +55,7 @@ const AboutUs = () => {
           <img
             src={International}
             alt="image of lawyers"
-            className="lg:w-[250px] md:w-[200px]  md:h-[200px] h-[150px] rounded-md "
+            className="lg:w-[250px] md:w-[200px]  md:h-[200px] h-[150px] rounded-md  w-full  bg-[#333333] "
           />
         </div>
       </div>

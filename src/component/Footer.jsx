@@ -22,8 +22,6 @@ const Footer = () => {
                 Office Address:
               </h5>
               <p>Lagos: No 3, Femi Okunnu Estate Phase 1, Lekki Lagos</p>
-              <p>Abuja: No 3, Femi Okunnu Estate Phase 1, Abuja</p>
-              <p>Portharcourt: No 3, Femi Okunnu Estate Phase 1, PH</p>
             </div>
             <div className="md:w-[200px] 2xl:w-[300px] w-full flex flex-col gap-2 text-sm 2xl:text-xl">
               <h5 className="font-bold text-lg text-[#1d2951] 2xl:text-3xl ">
