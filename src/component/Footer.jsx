@@ -13,7 +13,7 @@ const Footer = () => {
               S.O. FAMUYIWA <br />
               <span className="text-[#c9a13e]">& </span>
               <br />
-              Co
+              C.O
             </p>
           </div>
           <div className="flex gap-4  2xl:gap-10 flex-wrap mt-2 lg:mt-0 justify-center">
@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
       <div className="border border-[#1d2951] opacity-20 w-full my-4"></div>
       <h6 className="flex justify-center items-center mt-10 text-[12px] md:text-sm 2xl:text-xl">
-        copyright &copy; 2025 S.O. FAMUYIWA & CO. All Rights Reserved.
+        copyright &copy; 2025 S.O. FAMUYIWA & C.O. All Rights Reserved.
       </h6>
     </footer>
   );
