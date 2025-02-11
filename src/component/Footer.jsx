@@ -13,7 +13,7 @@ const Footer = () => {
               S.O. FAMUYIWA <br />
               <span className="text-[#c9a13e]">& </span>
               <br />
-              C.o.
+              Co.
             </p>
           </div>
           <div className="flex gap-4  2xl:gap-10 flex-wrap mt-2 lg:mt-0 justify-center">
